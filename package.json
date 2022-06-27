@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-typescript-babel",
+  "name": "react-element-carousel",
   "version": "1.0.0",
-  "description": "A sample setup using React, Webpack and Babel to build TypeScript code, and using TypeScript for type-checking.",
+  "description": "React component for displaying content in horizontal scrollable container",
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
@@ -9,10 +9,15 @@
     "start": "webpack s --config ./webpack.config.js --mode=development",
     "start:prod": "npm run build && http-server dist -p 9999 -o"
   },
-  "author": {
-    "name": "Oleksandr T.",
-    "email": "oleksandr.tarasiuk@outlook.com"
-  },
+  "authors": [
+    {
+      "name": "Tuomas Hatakka",
+      "email": "tuomas.hatakka@gmail.com"
+    }, {
+      "name": "Oleksandr T.",
+      "email": "oleksandr.tarasiuk@outlook.com"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.18.5",

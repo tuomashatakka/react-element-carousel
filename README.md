@@ -1,6 +1,8 @@
-# React-Webpack-TypeScript-Babel
+# react-element-carousel
 
-> This is sample repository demonstrates how to use React, Webpack, TypeScript and Babel
+React component for displaying content in horizontal scrollable container.
+
+## Development
 
 ## Starting the development server
 
