@@ -14,13 +14,14 @@ jobs:
       with:
         node-version: '16'
     - run: npm ci
-    - run: npm run build
+#    - run: npm run build
     - run: echo "dist_path=$(pwd)" >> $GITHUB_ENV
     - run: ls -la
 
     - name: Init new repo in dist folder and commit generated files
       run: |
-        cd ${env.dist_path}
+        echo "${{env.dist_path}}"
+        cd $(echo "${{env.dist_path}}")
         pwd
         ls -la
         git init
