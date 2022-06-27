@@ -1,7 +1,9 @@
-const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path = require('path');
-const APP_PATH = path.resolve(__dirname, 'src');
+const ForkTsCheckerWebpackPlugin  = require('fork-ts-checker-webpack-plugin')
+const HtmlWebpackPlugin           = require('html-webpack-plugin')
+const path                        = require('path')
+
+const APP_PATH                    = path.resolve(__dirname, 'src')
+
 
 module.exports = {
   entry: APP_PATH,
@@ -29,6 +31,10 @@ module.exports = {
   },
 
   devServer: {
-    open: true
+    open: true,
+    static: { 
+      directory: path.resolve(__dirname, './src'), 
+      publicPath: '/'
+    }
   }
-};
+}
