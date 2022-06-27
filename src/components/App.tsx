@@ -1,10 +1,79 @@
-import React from 'react';
-import { Counter } from './Counter';
-import { Hello } from './Hello';
+import React from 'react'
 
-export const App = () => (
-  <>
-    <Hello name={ 'react-webpack-typescript-babel' } />
-    <Counter />
-  </>
-);
+import Carousel from './Carousel'
+
+export const App = () =>
+  <Carousel>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet dolor sit amet dolor sit amet dolor sit amet dolor sit amet dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+    <article>
+      <h2>Lorem ipsum</h2>
+      <p>dolor sit amet etc...</p>
+    </article>
+  </Carousel>
